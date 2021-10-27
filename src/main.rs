@@ -1,3 +1,7 @@
+#![allow(non_snake_case)]
+
+mod custom_console;
+
 fn main() {
-    println!("hello")
+    custom_console::greet();
 }
