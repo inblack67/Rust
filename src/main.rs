@@ -1,10 +1,12 @@
 #![allow(non_snake_case)]
 
+mod arrays;
 mod custom_console;
 mod strings;
 mod tuples;
 mod types;
 mod vars;
+mod vectors;
 
 fn main() {
     custom_console::greet();
@@ -12,4 +14,6 @@ fn main() {
     types::run();
     strings::run();
     tuples::run();
+    arrays::run();
+    vectors::run();
 }
