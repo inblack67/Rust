@@ -1,0 +1,28 @@
+pub fn run(){
+	println!("Hello, world!");
+
+    // primitives
+    // isize, usize => depends on PC's architecture => 32-bit or 64-bit
+
+    let t: (i32, i32, char) = (1, 2, 'A');
+    let (_, _, x) = t;
+    println!("{}", x);
+    // arrays => stack
+
+    // tuple inside tuple
+    let t1 = (1, "ok");
+    let t2 = ("dok", t1);
+    let nums: [i32; 5] = [1, 2, 3, 4, 5];
+
+    // strings are compound versions of slices of strings and put together they become a string
+    let s1 = "my str"; // slice of a string (part of a string)
+    let s2 = "my str".to_string();
+    let s3 = String::from("hello");
+    let string_slice = &s3[1..2];
+    println!("{} {}", string_slice, s3);
+
+    // println!("{:#?}", (t2, t2.1, nums, s1, s2, s3)); // new lines
+
+    let t = (); // empty tuple
+                // any function which does not return anything returns empty tuple
+}
