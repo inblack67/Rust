@@ -6,7 +6,6 @@ mod strings;
 mod tuples;
 mod types;
 mod vars;
-mod vectors;
 
 fn main() {
     custom_console::greet();
@@ -15,5 +14,4 @@ fn main() {
     strings::run();
     tuples::run();
     arrays::run();
-    vectors::run();
 }
