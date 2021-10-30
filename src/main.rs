@@ -2,6 +2,7 @@
 
 mod arrays;
 mod custom_console;
+mod ownership_and_borrowing;
 mod strings;
 mod tuples;
 mod types;
@@ -14,4 +15,5 @@ fn main() {
     strings::run();
     tuples::run();
     arrays::run();
+    ownership_and_borrowing::run();
 }
