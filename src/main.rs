@@ -7,6 +7,7 @@ mod strings;
 mod tuples;
 mod types;
 mod vars;
+mod structures;
 
 fn main() {
     custom_console::greet();
@@ -16,4 +17,5 @@ fn main() {
     tuples::run();
     arrays::run();
     ownership_and_borrowing::run();
+    structures::run();
 }
