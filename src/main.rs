@@ -1,13 +1,15 @@
 #![allow(non_snake_case)]
 
 mod arrays;
+mod control_flow;
 mod custom_console;
 mod ownership_and_borrowing;
+mod pattern_matching;
 mod strings;
+mod structures;
 mod tuples;
 mod types;
 mod vars;
-mod structures;
 
 fn main() {
     custom_console::greet();
@@ -18,4 +20,6 @@ fn main() {
     arrays::run();
     ownership_and_borrowing::run();
     structures::run();
+    control_flow::run();
+    pattern_matching::run();
 }
