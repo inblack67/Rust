@@ -3,6 +3,8 @@
 mod arrays;
 mod control_flow;
 mod custom_console;
+mod enums;
+mod options;
 mod ownership_and_borrowing;
 mod pattern_matching;
 mod strings;
@@ -22,4 +24,6 @@ fn main() {
     structures::run();
     control_flow::run();
     pattern_matching::run();
+    enums::run();
+    options::run();
 }
