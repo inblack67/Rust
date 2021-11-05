@@ -4,14 +4,18 @@ mod arrays;
 mod control_flow;
 mod custom_console;
 mod enums;
+mod hashmaps;
+mod iflet;
 mod options;
 mod ownership_and_borrowing;
 mod pattern_matching;
+mod result_enum;
 mod strings;
 mod structures;
 mod tuples;
 mod types;
 mod vars;
+mod vectors;
 
 fn main() {
     custom_console::greet();
@@ -26,4 +30,8 @@ fn main() {
     pattern_matching::run();
     enums::run();
     options::run();
+    vectors::run();
+    hashmaps::run();
+    iflet::run();
+    result_enum::run();
 }
