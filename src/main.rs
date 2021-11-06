@@ -12,6 +12,7 @@ mod pattern_matching;
 mod result_enum;
 mod strings;
 mod structures;
+mod traits;
 mod tuples;
 mod types;
 mod vars;
@@ -34,4 +35,5 @@ fn main() {
     hashmaps::run();
     iflet::run();
     result_enum::run();
+    traits::run();
 }
