@@ -4,6 +4,7 @@ mod arrays;
 mod control_flow;
 mod custom_console;
 mod enums;
+mod generics;
 mod hashmaps;
 mod iflet;
 mod options;
@@ -36,4 +37,5 @@ fn main() {
     iflet::run();
     result_enum::run();
     traits::run();
+    generics::run();
 }
