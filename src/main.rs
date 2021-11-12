@@ -8,6 +8,8 @@ mod enums;
 mod generics;
 mod hashmaps;
 mod iflet;
+mod lifetimes;
+mod my_iterators;
 mod options;
 mod ownership_and_borrowing;
 mod pattern_matching;
@@ -20,7 +22,6 @@ mod tuples;
 mod types;
 mod vars;
 mod vectors;
-mod my_iterators;
 
 fn main() {
     custom_console::greet();
@@ -44,4 +45,5 @@ fn main() {
     pointers::run();
     closures::run();
     my_iterators::run();
+    lifetimes::run();
 }
