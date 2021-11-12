@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 mod arrays;
+mod closures;
 mod control_flow;
 mod custom_console;
 mod enums;
@@ -10,6 +11,7 @@ mod iflet;
 mod options;
 mod ownership_and_borrowing;
 mod pattern_matching;
+mod pointers;
 mod result_enum;
 mod strings;
 mod structures;
@@ -18,6 +20,7 @@ mod tuples;
 mod types;
 mod vars;
 mod vectors;
+mod my_iterators;
 
 fn main() {
     custom_console::greet();
@@ -38,4 +41,7 @@ fn main() {
     result_enum::run();
     traits::run();
     generics::run();
+    pointers::run();
+    closures::run();
+    my_iterators::run();
 }
