@@ -10,6 +10,7 @@ mod generics;
 mod hashmaps;
 mod iflet;
 mod lifetimes;
+mod mpsc;
 mod my_iterators;
 mod options;
 mod ownership_and_borrowing;
@@ -50,4 +51,5 @@ fn main() {
     lifetimes::run();
     threads::run();
     channels::run();
+    mpsc::run();
 }
