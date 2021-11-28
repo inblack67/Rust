@@ -1,6 +1,7 @@
 #![allow(non_snake_case)]
 
 mod arrays;
+mod channels;
 mod closures;
 mod control_flow;
 mod custom_console;
@@ -17,6 +18,7 @@ mod pointers;
 mod result_enum;
 mod strings;
 mod structures;
+mod threads;
 mod traits;
 mod tuples;
 mod types;
@@ -46,4 +48,6 @@ fn main() {
     closures::run();
     my_iterators::run();
     lifetimes::run();
+    threads::run();
+    channels::run();
 }
