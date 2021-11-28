@@ -12,6 +12,7 @@ mod iflet;
 mod lifetimes;
 mod mpsc;
 mod mutex;
+mod mutex_and_channel;
 mod my_iterators;
 mod options;
 mod ownership_and_borrowing;
@@ -52,6 +53,7 @@ fn main() {
     lifetimes::run();
     threads::run();
     channels::run();
-    mpsc::run();
+    // mpsc::run();
     mutex::run();
+    mutex_and_channel::run();
 }
