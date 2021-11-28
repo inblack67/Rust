@@ -11,6 +11,7 @@ mod hashmaps;
 mod iflet;
 mod lifetimes;
 mod mpsc;
+mod mutex;
 mod my_iterators;
 mod options;
 mod ownership_and_borrowing;
@@ -52,4 +53,5 @@ fn main() {
     threads::run();
     channels::run();
     mpsc::run();
+    mutex::run();
 }
