@@ -6,6 +6,7 @@ mod closures;
 mod control_flow;
 mod custom_console;
 mod enums;
+mod error_handling;
 mod generics;
 mod hashmaps;
 mod iflet;
@@ -56,4 +57,6 @@ fn main() {
     // mpsc::run();
     mutex::run();
     mutex_and_channel::run();
+
+    error_handling::run();
 }
