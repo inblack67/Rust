@@ -22,7 +22,7 @@ pub fn run() {
 
 	let p = 10;
 	match p {
-		n @ 1..=10 => println!("n {}", n), // bind p's matched value to n => useful when dont have ownership of n
+		n @ 1..=10 => println!("n {}", n), // bind p's matched value to n => useful when dont have ownership of p
 		_ => println!("none"),
 	}
 
