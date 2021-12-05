@@ -21,6 +21,7 @@ fn borrow2(v: &Vec<i32>) {
 }
 
 fn count_without_borrow(v: &Vec<i32>, val: i32) -> usize {
+	// two borrows
 	v.into_iter().filter(|&&x| x == val).count()
 }
 
